@@ -4,6 +4,7 @@
     - [Types of Number](#types-of-number)
     - [Decimal representation](#decimal-representation)
     - [Binary representation](#binary-representation)
+    - [Decimals are innacurate](#decimals-are-innacurate)
 
 # Floating point numbers
 
@@ -62,5 +63,48 @@ Move one column to the right => divide value by 2
 Binary <-> Hexadecimal
 
 ![](https://github.com/abdurahmanus/notes/blob/master/images/math_for_programmers/fractions_in_hexadecimal.png)
+
+## Decimals are innacurate
+
+Most numbers can't be exactly represented
+
+![](https://github.com/abdurahmanus/notes/blob/master/images/math_for_programmers/infinite_numbers.png)
+
+If there are an infinite number of numbers between any two points, then to represent all of them exactly you would need an infinite number of bits. On a 64-bit machine, you have just 64 bits. So, we can represent only a finite number of numbers. **Almost every number on the number line can't be represented exactly on a computer that has only a finite number of bits**
+
+![](https://github.com/abdurahmanus/notes/blob/master/images/math_for_programmers/iinnacurate_storing.png)
+
+Even relatively simple numbers can't be stored exactly. 1/3 = 0.333333333333...
+
+### The rule in decimal
+
+- **1/n can be represented exactly if the only prime factors of n are 2 and 5** (Because 10 = 2 * 5)
+- **can represent exactly**
+    - 1/20 = 0.05 (because 20 = 2 * 2 * 5)
+    - 1/50 = 0.02 (because 50 = 2 * 5 * 5)
+- **can't represent exactly**
+    - 1/6 = 0.166666... (because 6 can't be factored using 2's and 5's)
+- **if you can represent 1/n exactly then you can represent 2/n, 3/n etc. exactly**
+    - 2/20, 3/20, 4/20 etc. can be exactly represented
+
+### Fractions in binary
+
+- **even fewer fractions can be represented**
+    - the only fractions that can be are fractions of the form something/2^n (1/2, 1/4, 1/8, 1/16, 3/8, 3/4 ...)
+- **exact in decimal, not in binary**
+    - 1/5 = 0.2 = *b*0.001100110011... = *0x*3333333333...
+- **can't represent exactly in binary or hex**
+    - 0.7
+    - 0.3
+    - 0.9
+    - etc.
+- **irrationals can never be represented exactly in any base!**
+
+### Conclusion
+
+- **you can store exactly:**
+    - integers
+    - a very small proportion of rational numbers
+    - nothing else
 
 
