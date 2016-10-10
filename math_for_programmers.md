@@ -33,9 +33,9 @@ An irrational number is a real number that cannot be expressed as a ratio of int
 
 ## Decimal representation
 
-100's|10's|1's|.|1/10th's|1/100th's
--|-|-|-|-|-
- | |1|.|5|
+|100's|10's|1's|.|1/10th's|1/100th's|
+|---|---|---|---|---|---|
+| | |1|.|5| |
 
 = 1 * 1 + 5 * 1/10 = 1 1/2
 
@@ -43,9 +43,9 @@ Move one column to the right => divide value by 10
 
 ## Binary representation
 
-4's|2's|1's|.|1/2th's|1/4ths's
--|-|-|-|-|-
- | |0|.|1|1
+|4's|2's|1's|.|1/2th's|1/4ths's|
+|---|---|---|---|---|---|
+| | |0|.|1|1|
 
 = 1 * 1/2 + 1 * 1/4 = 3/2
 
