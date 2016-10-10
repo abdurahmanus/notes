@@ -51,4 +51,16 @@ Move one column to the right => divide value by 10
 
 Move one column to the right => divide value by 2
 
+## Hexadecimal representation
+
+|16's|1's|.|1/16th's|1/32th's|
+|---|---|---|---|---|
+| |0|.|8| |
+
+= 8 * 1/16 = 1/2
+
+Binary <-> Hexadecimal
+
+![](https://github.com/abdurahmanus/notes/blob/master/images/math_for_programmers/fractions_in_hexadecimal.png)
+
 
