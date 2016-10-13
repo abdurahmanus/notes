@@ -30,7 +30,7 @@ A rational number is any number that can be expressed as the quotient or fractio
 
 An irrational number is a real number that cannot be expressed as a ratio of integers, i.e. as a fraction. Therefore, irrational numbers, when written as decimal numbers, do not terminate, nor do they repeat. For example, the number π starts with 3.14159265358979, but no finite number of digits can represent it exactly and it does not end in a segment that repeats itself infinitely often. The same can be said for any irrational number. [(wiki)](https://en.wikipedia.org/wiki/Irrational_number)
 
-<img src="../images/math_for_programmers/numbers.png">
+<img src="/images/math_for_programmers/numbers.png">
 
 ## Decimal representation
 
@@ -62,17 +62,17 @@ Move one column to the right => divide value by 2
 
 Binary <-> Hexadecimal
 
-<img src="../images/math_for_programmers/fractions_in_hexadecimal.png">
+<img src="/images/math_for_programmers/fractions_in_hexadecimal.png">
 
 ## Decimals are innacurate
 
 Most numbers can't be exactly represented
 
-<img src="../images/math_for_programmers/infinite_numbers.png">
+<img src="/images/math_for_programmers/infinite_numbers.png">
 
 If there are an infinite number of numbers between any two points, then to represent all of them exactly you would need an infinite number of bits. On a 64-bit machine, you have just 64 bits. So, we can represent only a finite number of numbers. **Almost every number on the number line can't be represented exactly on a computer that has only a finite number of bits**
 
-<img src="../images/math_for_programmers/innacurate_storing.png">
+<img src="/images/math_for_programmers/innacurate_storing.png">
 
 Even relatively simple numbers can't be stored exactly. 1/3 = 0.333333333333...
 
